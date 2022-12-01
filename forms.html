@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid darkred;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: lightpink;
+}
+
+div {
+  border-radius: 5px;
+  background-color: lightskyblue;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h2>Welcome To DONATO's Company</h2>
+<h3>You May Know Answer The Form To Be A Part Of My Pages</h3>
+<p> NOTE: please answer this form HONESTY</p>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+    <label for="mname">Middle Name</label>
+    <input type="text" id="mname" name="middlename" placeholder="Your Middle name">
+
+    <label for="age">Age</label>
+    <input type="text" id="age" name="age" placeholder="Age">
+
+    <label for="birthday">Birthday</label>
+    <input type="text" id="birthday" name="birthday" placeholder="Birthday">
+
+    <label for="bplace">Birth Place</label>
+    <input type="text" id="bplace" name="birthplace" placeholder="Birth Place">
+
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+
+    <label for="status">Status</label>
+    <select id="status" name="status">
+      <option value="single">Single</option>
+      <option value="inarelationship">In a Relationship</option>
+    </select>
+
+    <label for="glevel">Grade Level</label>
+    <input type="text" id="glevel" name="gradelevel" placeholder="Grade Level">
+
+    <label for="sname">School Name</label>
+    <input type="text" id="elementary" name="elementary" placeholder="Elementary">
+    <input type="text" id="hschool" name="highschool" placeholder="High School">
+    <input type="text" id="seniorhigh" name="seniorhigh" placeholder="Senior High">
+    <input type="text" id="collage" name="collage" placeholder="Collage">
+
+    <label for="cnumber">Contact Number</label>
+    <input type="text" id="cnumber" name="contactnumber" placeholder="Contact Number">
+
+    <label for="address">Address</label>
+    <input type="text" id="address" name="address" placeholder="Address">
+
+    <label for="fname">Father's Name</label>
+    <input type="text" id="fname" name="father'sname" placeholder="Father's Name">
+
+    <label for="occupation">Occupation</label>
+    <input type="text" id="occupation" name="occupation" placeholder="Occupation">
+
+    <label for="mname">Mather's Name</label>
+    <input type="text" id="mname" name="mother'sname" placeholder="Mother's Name">
+
+    <label for="occupation">Occupation</label>
+    <input type="text" id="occupation" name="occupation" placeholder="Occupation">
+
+    <label for="cnumber">Contact Number</label>
+    <input type="text" id="cnumber" name="contactnumber" placeholder="Contact Number">
+
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="ph">Philippines</option>
+      <option value="paris">Paris</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
